@@ -8,6 +8,7 @@ public class Main {
 
 		Login log = new Login();
 		log.setVisible(true);
+		modificaciondeprueba;
 	}
 
 }
