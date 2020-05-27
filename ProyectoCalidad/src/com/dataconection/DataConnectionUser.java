@@ -22,7 +22,7 @@ public class DataConnectionUser {
 	public void performConnection() {
 		String host = "127.0.0.1";
 		String user = "root";
-		String pass = "";
+		String pass = "123456789";
 		String dtbs = "Tienda";
 		
 		try{
