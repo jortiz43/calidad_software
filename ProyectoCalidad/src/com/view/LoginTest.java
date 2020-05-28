@@ -21,15 +21,15 @@ import org.junit.Test;
 import com.dataconection.DataConnectionUser;
 
 public class LoginTest {
-
-	@Test
-	public void testLogin() {
-		
-			
-			private JPanel contentPane;
+	
+	private JPanel contentPane;
 			public static JTextField txt_usuario;
 			public static JPasswordField txt_contraseña;
 			final paginaPrincipal paginaPrincipal = new paginaPrincipal();
+	@Test
+	public void testLogin() {
+	
+		
 
 			/**
 			 * Create the frame.
@@ -41,8 +41,7 @@ public class LoginTest {
 				JLabel lblNombre = new JLabel("Usuario:");
 				lblNombre.setFont(new Font("Tahoma", Font.PLAIN, 20));
 				
-				txt_usuario = new JTextField();
-				txt_usuario.setColumns(10);
+			
 				
 				JLabel lblContrasea = new JLabel("Contrase\u00F1a:");
 				lblContrasea.setFont(new Font("Tahoma", Font.PLAIN, 20));
