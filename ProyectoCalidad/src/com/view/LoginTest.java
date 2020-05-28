@@ -30,26 +30,21 @@ public class LoginTest {
 	public void testLogin() {
 	
 			/**
-			 * Create the frame.
+			 * frame.
 			 */
 				contentPane = new JPanel();
 				contentPane.setBorder(new EmptyBorder(3, 3, 3, 3));
-				void setContentPane(contentPane);
-				
+			
+	
 				JLabel lblNombre = new JLabel("Usuario:");
 				lblNombre.setFont(new Font("Tahoma", Font.PLAIN, 20));
 				
-			
-				
 				JLabel lblContrasea = new JLabel("Contrase\u00F1a:");
 				lblContrasea.setFont(new Font("Tahoma", Font.PLAIN, 20));
-				
-				
+
 				JButton btnEntrar = new JButton("Entrar");
 				btnEntrar.addActionListener(new ActionListener() {
 					
-					
-
 					public void actionPerformed(ActionEvent e) {
 						try {
 						PreparedStatement ps = DataConnectionUser.con.prepareStatement("Select * from Usuario where Nombre='"+txt_usuario.getText()+"'and Contraseña='"+txt_contraseña.getText()+"'");
@@ -59,18 +54,13 @@ public class LoginTest {
 							paginaPrincipal.setVisible(true);
 							dispose();
 							}
-						
 						}
 						catch (Exception login) {
 							System.out.println(e);
 						}
-						
-		
 					}
-					
 				});
-				
-									
+													
 			}
 
 	protected void dispose() {
@@ -85,7 +75,7 @@ public class LoginTest {
 			 */
 				contentPane = new JPanel();
 				contentPane.setBorder(new EmptyBorder(3, 3, 3, 3));
-				void setContentPane(contentPane);
+			
 				
 				JLabel lblNombre = new JLabel("Usuario:");
 				lblNombre.setFont(new Font("Tahoma", Font.PLAIN, 20));
@@ -113,14 +103,10 @@ public class LoginTest {
 							System.out.println(e);
 						}
 						
-						
 					}
 
-					
 				});
 				
-						
-			
 			}
 			
 }
