@@ -29,7 +29,7 @@ public class ConsultaUsuario extends JFrame {
 	private static DataConnectionUser mc = new DataConnectionUser();
 
 	/**
-	 * Launch the application.
+	 * INTERFAZ GRAFICA.
 	 */
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {

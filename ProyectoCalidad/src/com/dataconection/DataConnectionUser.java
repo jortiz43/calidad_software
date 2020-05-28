@@ -20,7 +20,7 @@ public class DataConnectionUser {
 	}
 	
 	public void performConnection() {
-		String host = "127.0.0.1";
+		String host = "localhost:3306";
 		String user = "root";
 		String pass = "Wils0n-2015";
 		String dtbs = "Tienda";
@@ -31,7 +31,7 @@ public class DataConnectionUser {
 					+ "?" + "user=" + user + "&password=" + pass;
 					con = DriverManager.getConnection(newConnectionURL);
 		}catch (Exception e) {
-			System.out.println("Error en l'obertura de la connexió.");
+			System.out.println("Error en la conexion.");
 		}
 		
 	}

@@ -6,11 +6,7 @@ import org.junit.Test;
 
 public class ConsultaUsuarioTest {
 
-	@Test
-	public void testMain() {
-		fail("Not yet implemented");
-	}
-
+	
 	@Test
 	public void testConsultaUsuario() {
 		fail("Not yet implemented");
